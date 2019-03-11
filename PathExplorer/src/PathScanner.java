@@ -63,7 +63,7 @@ public class PathScanner  {
             assert filesList != null;
             for (File f : filesList) {
                 if (f.isFile()) {
-                    toGiveToGUI = toGiveToGUI + "\n \t  " + f.getName() + " @ " + f.length() / 1024 + " Kb";
+                    toGiveToGUI = toGiveToGUI + "\n \t  " + f.getName() + " @ " + f.length() + " bytes.";
                 }
             }
         }
